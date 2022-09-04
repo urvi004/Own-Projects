@@ -1,0 +1,138 @@
+* {
+    font-family: 'DM Sans';
+}
+#main_container {
+    margin-top: 4%;
+}
+.red_container {
+    width: 50%;
+    margin: auto;
+    background-color: #EB755D;
+    height: 100px;
+    border-radius: 12px;
+    display: flex;
+}
+.red_left_div {
+    color: white;
+    margin-left: 1rem;
+}
+.red_right_div {
+    display: flex;
+    margin-left: 78%;
+    margin-top: 5%;
+}
+
+.white_circle {
+    background-color: transparent;
+    height: 28px;
+    width: 28px;
+    border: 1px solid white;
+    border-radius: 50%;
+    position: absolute;
+}
+.black_circle {
+    background-color: black;
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    margin-left: 15px;
+}
+
+.spending {
+    text-align: center;
+}
+
+/* BARS */
+.bars {
+    height: 250px;
+    display: flex;
+    gap: 2%;
+    width: 50%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+
+}
+.day_names {
+    margin: auto;
+    width: 50%;
+    display: flex;
+    gap: 12%;
+    margin-top: -3%;
+}
+.day_names h4 {
+    color: grey;
+}
+.mon {
+    background-color: #EB755D;
+    width: 17%;
+    height: 80px;
+    border-radius: 7px;
+    margin-bottom: -13%;
+}
+.tue {
+    background-color: #EB755D;
+    width: 17%;
+    height: 130px;
+    border-radius: 7px;
+    margin-bottom: -6%;
+}
+.wed {
+    background-color: #76B5BC;
+    width: 17%;
+    height: 200px;
+    border-radius: 7px;
+    margin-bottom: 3%;
+}
+.thu {
+    background-color: #EB755D;
+    width: 17%;
+    height: 110px;
+    border-radius: 7px;
+    margin-bottom: -8%;
+}
+.fri {
+    background-color: #EB755D;
+    width: 17%;
+    height: 100px;
+    border-radius: 7px;
+    margin-bottom: -9%;
+}
+.sat {
+    background-color: #EB755D;
+    width: 17%;
+    height: 170px;
+    border-radius: 7px;
+    margin-bottom: -0.5%;
+}
+.sun {
+    background-color: #EB755D;
+    width: 17%;
+    height: 110px;
+    border-radius: 7px;
+    margin-bottom: -8%;
+}
+.price {
+    width: 50%;
+    margin: auto;
+    display: flex;
+}
+.price_left h5{
+    color: grey;
+}
+.price_left h2 {
+    letter-spacing: 2px;
+    font-weight: bolder;
+}
+.price_right {
+    margin-left: auto;
+    margin-top: 1.5rem;
+}
+.price_right h4 {
+    margin-left: 40%;
+}
+.price_right h5 {
+    color: gray;
+    letter-spacing: 2px;
+    margin-top: -8%;
+}
